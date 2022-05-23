@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="https://kit.fontawesome.com/2e440afa55.js" crossorigin="anonymous"></script>
+    <title>Markdown Previewer</title>
+</head>
+
+<body class="bg-primary">
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="py-2 text-center shadow border-bottom border-dark bg-secondary text-primary">Markdown Previewer</h2>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="offcanvas offcanvas-start bg-light" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header bg-secondary border-bottom border-dark">
+                <div class="col">
+                    <h5 class="offcanvas-title text-center text-primary">Keywords List</h5>
+                </div>
+                <button type="button" class="btn-close bg-primary" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-primary">
+                <div id="keyword-list"></div>
+            </div>
+        </div>
+        <div class="container-lg">
+            <div id="markdown" class="row m-1 g-3">
+                <div class="col-md-6 bg-secondary rounded shadow-lg">
+                    <div class="col border-bottom">
+                        <label class="pt-2 px-2 text-primary">
+                            <h5>Preview</h5>
+                        </label>
+                    </div>
+                    <div id="preview" class="p-3 bg-white overflow-auto"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="px-2 col rounded shadow-lg bg-secondary">
+                        <label class="pt-2 px-2 text-primary">
+                            <h5>Your Editor</h5>
+                        </label>
+                        <textarea id="editor" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-1">
+                <div class="my-3 col d-flex justify-content-around">
+                    <button id="help-button" class="mx-3 btn btn-secondary shadow-sm fw-semibold" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        Help
+                    </button>
+                    <button id="clear-text" class="btn btn-warning shadow-sm fw-semibold" type="button"
+                        data-bs-toggle="modal" data-bs-target="#warning-modal">
+                        Clear text!
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="warning-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Are you sure to delete?</h5>
+                    </div>
+                    <div class="modal-body" id="modal-message">
+                        <div class="row">
+                            <div class="col text-center fs-5">
+                                This cannot be undone
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col d-flex justify-content-evenly">
+                                    <button type="button" class="btn btn-light shadow-sm fw-semibold"
+                                        data-bs-dismiss="modal">
+                                        Close
+                                    </button>
+                                    <button type="button" id="clear-input" class="btn btn-danger shadow-sm fw-semibold"
+                                        data-bs-dismiss="modal">
+                                        Clear input text
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex justify-content-evenly fs-2 py-3">
+                    <a href="https://github.com/jvitoralb" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jvitor-albuquerque/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/js/main.js"></script>
+    <script src="./src/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+@use 'custom' as *;
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(145, 145, 145, 0.6);
+    border-radius: 10px;
+}
+
+a {
+    color: $indigo;
+    &:hover {
+        color: $green;
+    }
+}
+
+#markdown {
+
+    #preview,
+    #editor {
+        height: 80vh;
+    }
+
+    textarea {
+        resize: none;
+    }
+}
+
+#help-button {
+
+    &:hover {
+        background-color: rgba($color: $green, $alpha: 0.9);
+    }
+}

@@ -1,0 +1,32 @@
+// Theme colors
+$blue:    #E8F9FD;
+$yellow:  #ffbf12;
+$red:     #c50d1f;
+$green:   #324B50;
+$indigo:  #1d1057;
+
+
+// White and Grey colors
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$black:    #000;
+
+
+// Updated Variables
+$primary:       $blue;
+$secondary:     $green;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-300;
+
+
+// Updated Shadows
+$box-shadow-sm:               0 .075rem .25rem rgba($black, .3);
+$box-shadow-lg:               .125rem .3rem .625rem rgba($black, .5);
+
+
+// Import Bootstrap SCSS
+@import '../bootstrap/scss/bootstrap.scss';
+
