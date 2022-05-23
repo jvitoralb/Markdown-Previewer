@@ -8,6 +8,6 @@ Also used the Marked library to parse Markdown.
 
 The main goal of this project was to practice Bootstrap and Saas.
 
-In the main.js file, you can find all the JS logic to make the project work,
-and in the defaultTexts.js file, you find some texts that are rendered with marked, so the main JavaScript file is organized.
+In the `main.js` file, you can find all the JS logic to make the project work,
+and in the `defaultTexts.js` file, you find some texts that are rendered with marked, so the main JavaScript file is organized.
 
