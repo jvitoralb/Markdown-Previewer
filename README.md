@@ -1,11 +1,13 @@
 ## This is a Markdown Previewer
 
-This project is part of the Front End Development Libraries certification course for the freeCodeCamp curriculum.  
-In this project, I used JavaScript, Bootstrap, and Saas to change some default Bootstrap variables.  
-Also used Marked library to parse Markdown.
+[To see the project live click here](https://jvitoralb.github.io/Markdown-Previewer/)!
 
-The main goal of this project was to practice the Bootstrap and Saas.
+This project is part of the Front End Development Libraries certification course for the freeCodeCamp curriculum.
+In this project, I used JavaScript, Bootstrap, and Saas to change some default Bootstrap variables.
+Also used the Marked library to parse Markdown.
 
-In the `main.js` file you can find all the JS logic to make the project work,  
-and in the `defaultTexts.js` file you find some texts that are rendered with marked, so the main JavaScript file is organized.
+The main goal of this project was to practice Bootstrap and Saas.
+
+In the main.js file, you can find all the JS logic to make the project work,
+and in the defaultTexts.js file, you find some texts that are rendered with marked, so the main JavaScript file is organized.
 
