@@ -36,20 +36,23 @@ Can quote text:
 
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)`;
 
-export const keywordsText = `\`#\` For the bigger header.
+export const keywordsText = `### A Markdown previewer.  
+Here are some helpful keywords:
 
-\`##\` For the sub header.
+\`#\` For the bigger header.
+
+\`##\` For the subheader.
 
 \`###\` For the smaller one.
 
 If you want a new paragraph, leave an empty line.
 
-Use double space  
+Use double-space  
 to brake a line.
 
 Write between \` \`\` \` to write in-line code
 
-For a codeblock write \` \`\`\` \` to open, write your code
+For a codeblock write \` \`\`\` \` to open and write your code
 and then to close use also three backticks.
 
 To make lists:
@@ -58,7 +61,7 @@ To make lists:
     - Can use any number before a \`.\`
     - For nested lists use \`-\` right below the first letter of the first word in the item above.
 
-To attach links [Write the word inde brackects](and the URL in parenthesis).
+To attach links [Write the word inside brackects](and the URL in parenthesis).
 
-If want to insert images:  
+If you want to insert images:  
 ![Use the same pattern as](for the links) with \`!\`, before the brackets.`;
