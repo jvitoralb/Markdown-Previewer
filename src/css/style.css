@@ -11930,6 +11930,10 @@ a:hover {
   resize: none;
 }
 
+#credit {
+  font-size: 0.8rem;
+}
+
 #help-button:hover {
   background-color: rgba(50, 75, 80, 0.9);
 }/*# sourceMappingURL=style.css.map */
