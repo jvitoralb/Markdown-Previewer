@@ -1,2 +1,5 @@
-include:
-  - node_modules
+plugins:
+  - jekyll-coffeescript
+
+sass:
+  sass_dir: src/scss
