@@ -1,14 +1,15 @@
 {
   "name": "markdown-previewer-2",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass src/scss/style.scss:out/css/style.css"
   },
-  "author": "",
+  "author": "jvitoralb",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1"
+    "bootstrap": "^5.2.0-beta1",
+    "sass": "^1.69.4"
   }
 }
