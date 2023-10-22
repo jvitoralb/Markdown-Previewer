@@ -26,7 +26,5 @@ $light:         $gray-300;
 $box-shadow-sm:               0 .075rem .25rem rgba($black, .3);
 $box-shadow-lg:               .125rem .3rem .625rem rgba($black, .5);
 
-
-// Import Bootstrap SCSS
-@import '../bootstrap/scss/bootstrap.scss';
-
+// Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
